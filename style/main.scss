@@ -8,9 +8,15 @@ $primary: #1c3354;
     font-family: 'Rokkitt', serif;
     font-weight: 400;
 }
-
+.no-padding {
+    padding: 0 !important;
+}
+.no-margin {
+    margin-right: 0 !important;
+}
 .header {
-    font-size: 2.7vh;
+    display: table;
+    font-size: 3vw;
     height: 20%;
     color: white;
     background-color: $primary;
@@ -19,10 +25,9 @@ $primary: #1c3354;
     align-items: center;
 }
 .logoimg {
-    display: block;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
+    max-width: 20%;
+    max-height: 20%;
 }
 h1 {
     color: $primary;
@@ -30,13 +35,14 @@ h1 {
 }
 .body {
     font-size: 22px;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .icon{
     padding:1vh;
     height: fit-content;
-    font-size: 22px;
+    font-size: 18px;
 }
 .contact-info{
     padding: 10px;
